@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@700&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@700&family=Roboto:wght@700&family=Ubuntu:wght@700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -11,6 +12,189 @@ body{
 
 }
 
+/*Typograph*/
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 64px;
+    color: white;
+    margin-left: 373px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+
+hr{
+    border: 1px rgba(0, 0, 0, 0.3) ;
+}
+
+.button{
+    appearance: none;
+    font-family: 'Ubuntu', sans-serif;
+    height: 71px;
+    width: 183px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(7, 3, 3);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-left: 628px;
+}
+
+/*Top Menu*/
+
+.header-section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    height: 66px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.logo{
+    cursor: pointer;
+    width: 95px;
+    height: 24px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu__item{
+    display: flex;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.menu__link{
+    text-decoration: none;
+    color: Gray;
+    height: 100%;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu__link :hover{
+    background-color: #666;
+}
 
 
 
+/*big section under nav*/
+
+
+.big-content{
+    width: 100vw;
+    min-height: 512px;
+    background-color: rgba(51,51,51,1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;    
+}
+
+
+/*Main content cards*/
+
+.cards{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+
+}
+
+.cards .wrapper .card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+.cards .wrapper .card h2{
+    font-weight: normal;
+}
+
+.cards .wrapper .big-card{
+    max-width: 484px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .wrapper .big-card figure{
+    width: 100%;
+    margin: 0;
+}
+
+.cards .wrapper .big-card figure img{
+    width: 100%;
+}
+
+.cards .wrapper .big-card section{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+/*Footer*/
+
+.footer-section{
+    color: #fff;
+    background-color: gray;
+}
+.footer-section .footer-links{
+    width: 1000px;
+    max-height: 447px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-section .footer-links nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section .footer-links nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.footer-section .footer-links article p{
+    margin: 0;
+}
+
+.footer-section .footer-links .social-media .icons img{
+    margin-right: 0.5rem;
+}
